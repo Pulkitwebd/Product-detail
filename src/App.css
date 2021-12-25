@@ -1,0 +1,87 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.nav-bar{
+  background-color: rgb(36, 47, 65);
+  height : 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-bar img {
+  height:10vh;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: auto auto;
+  height: 90vh;
+  width : 100%;
+}
+.time{
+  position: absolute;
+  font-size: 8vh;
+  color: white;
+  margin-top: -2vh;
+}
+.hrate{
+  position: absolute;
+  font-size: 4vh;
+  color: white;
+  margin-top: 10vh;
+  color: red;
+}
+.watch{
+  width :50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+  position: relative;
+}
+.watch img{
+ height: 80vh;
+}
+
+.desc{
+  background-color: aqua;
+  
+}
+.watch-color{
+  display: flex;
+  flex-direction: row;
+  height : 20vh;
+  width : 38vw;
+  
+}
+.grid-item:hover{
+  border : 5px solid  rgba(94, 94, 248, 0.575);
+  border-radius: 15px
+
+}
+.btn{
+  margin: 1% 1% 1% 0;
+  padding: 1%;
+  border-radius: 5px; 
+  border-style: none;
+  font-size:15px;
+}
+.btn:hover{
+ background-color:grey;
+ color: white;
+}
+.buynow{
+  display: block;
+  margin: 2% 1% 1% 0%;
+  padding: 1%;
+  border-radius: 5px; 
+  border-style: none;
+  font-size:20px;
+  background-color: rgba(94, 94, 248, 0.575);
+}
+.buynow:hover{
+  color: white;
+  background-color: rgb(29, 129, 43);
+}
